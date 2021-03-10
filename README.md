@@ -16,6 +16,20 @@ We will be using:
 
 > Initialise with `npm init -y`
 
+## .gitignore
+
+Don't forget to create a `.gitignore` file.
+
+You don't want to include all files in your github repo.
+
+For example, the `node_modules` folder can grow quite large (even into the GigaBytes). You do not need to upload this since your `package.json` file references all your node dependencies.
+
+`.env` usually contains sensitive information (database passwords, secret keys) and should not be added to `git`.
+
+You can build a `.gitignore` with [gitignore.io](https://www.toptal.com/developers/gitignore)
+
+Or you can use the `.gitignore` file included [in this repo](./.gitignore)
+
 ## Frontend
 
 React (or React Native)
