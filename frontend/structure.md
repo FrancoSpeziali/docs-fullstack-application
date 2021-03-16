@@ -4,6 +4,8 @@ Project folder can be created using `create-react-app`
 
 ---
 
+You will notice in the 2 examples below that I tend to favour placing React components in their own separate folder, grouping like files together (for example, you will find the CSS for a component in the same folder as the component). This is called [colocation](https://kentcdodds.com/blog/colocation).
+
 ## Example 1
 
 ### Flat component structure
