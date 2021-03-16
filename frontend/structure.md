@@ -8,6 +8,10 @@ Project folder can be created using `create-react-app`
 
 You will notice in the 2 examples below that I tend to favour placing React components in their own separate folder, grouping like files together (for example, you will find the CSS for a component in the same folder as the component). This is called [colocation](https://kentcdodds.com/blog/colocation).
 
+## CSS Modules
+
+In the following examples, I use [CSS modules](https://github.com/css-modules/css-modules) for organising my CSS. `create-react-app` has a complete build process to integrate your CSS modules. If you didn't use `create-react-app` to build your frontend stack, you may have to set this up manually. [More information](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) on using CSS modules with `create-react-app`.
+
 ## Example 1
 
 ### Flat component structure
